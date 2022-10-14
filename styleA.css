@@ -1,0 +1,48 @@
+/*Author: Adam Princiotta*/
+body{
+    text-align: center; 
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+/*CSS for A, C and E*/
+.ACE{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-top: 1px;
+    border-top-color:#687291;
+    border-top-style: solid;
+    text-align: center;
+    background-color:#dfe1e7;
+}
+/*CSS for B and D*/
+.BD{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-top: 1px;
+    border-top-color:#687291;
+    border-top-style: solid;
+    text-align: center;
+    background-color:#eeeff2;
+}
+/*CSS for D*/
+.F{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    text-align: center;
+    align-content: center;
+    line-height: 100px;
+    background-color:#687291;
+}
+/*CSS for the gap between each block*/
+.Gap{
+    height: 10px;
+}

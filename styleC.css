@@ -1,0 +1,83 @@
+/*Author: Adam Princiotta*/
+body{
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+}
+/*Author: Adam Princiotta*/
+body{
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+}
+/*CSS for A, C and E*/
+.ACE{
+    
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-top: 1px;
+    border-top-color:#687291;
+    border-top-style: solid;
+    text-align: center;
+    background-color:#dfe1e7;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: white;  
+}
+
+/*Hover for A, C, and E*/
+.ACE:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/*CSS for B and D*/
+.BD{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-top: 1px;
+    border-top-color:#687291;
+    border-top-style: solid;
+    text-align: center;
+    background-color:#eeeff2;
+    border-bottom-style: solid;
+    border-bottom-color: white; 
+}
+
+/*Hover for B and D*/
+.BD:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/*CSS for F*/
+.F{
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 150px;
+    padding-left: 10px;
+    background-color: #eeeff2;
+    border-left: 10px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+    text-align: left;
+}
+
+/*Hover for F*/
+.F:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+/*CSS for the gap between each block*/
+.Gap{
+    height: 20px;
+}

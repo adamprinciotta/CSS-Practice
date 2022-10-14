@@ -1,0 +1,64 @@
+/*Author: Adam Princiotta*/
+body{
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+/*CSS for A, C, and E. Kept the same name so you could swap just A to B in index.html*/
+.ACE{
+    width: 100px;
+    height: 150px;
+    padding-left: 10px;
+    text-align: left;
+    background-color: #eeeff2;
+    border-left: 10px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+}
+/*CSS for changing cursor on hover for A, C and E*/
+.ACE:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+/*CSS for B and D. Kept the same name so you could swap just A to B in index.html*/
+.BD{
+    width: 100px;
+    height: 150px;
+    padding-left: 10px;
+    background-color: #eeeff2;
+    border-left: 10px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+    text-align: left;
+}
+/*CSS for changing cursor on hover for B and D*/
+.BD:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+/*CSS for F*/
+.F{
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 150px;
+    padding-left: 10px;
+    background-color: #eeeff2;
+    border-left: 10px;
+    border-left-style: dotted;
+    border-left-color: #D0D0FF;
+    text-align: left;
+}
+/*CSS for changing cursor on hover for F*/
+.F:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+/*CSS for the gap between each block*/
+.Gap{
+    width: 10px;
+}
